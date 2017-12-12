@@ -17,4 +17,7 @@ const server = http.createServer((request, response) => {
   }
 })
 
-server.listen(4200)
+server.listen(4200, err => {
+  if (err) throw err;
+  console.log("server listening on *:4200");
+});
