@@ -1,3 +1,3 @@
-# http-server
+### http-server
 
-basic setup
+easy-peasy
